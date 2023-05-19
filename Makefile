@@ -6,7 +6,7 @@ PREFIX = /Applications/Xcode-11.7.0.app/Contents/Developer/Toolchains/XcodeDefau
 
 include $(THEOS)/makefiles/common.mk
 
-TWEAK_NAME = CCPatch13
+TWEAK_NAME = CCPatch15
 
 CCPatch13_FILES = Tweak.xm
 CCPatch13_CFLAGS = -fobjc-arc
