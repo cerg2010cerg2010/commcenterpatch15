@@ -1,5 +1,5 @@
 #!/bin/sh
-echo Hippity Hoppity CommCenter is now your property
+echo CCP15 Hooking CommCenter
 killall CommCenter
 killall CommCenter Helper
 exit 0

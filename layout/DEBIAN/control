@@ -1,10 +1,10 @@
-Package: com.amywhile.ccpatch13
+Package: com.cronocide.ccp15
 Architecture: iphoneos-arm
 Pre-Depends: firmware (>= 8.0)
-Name: CommCenterPatch13
+Name: CommCenterPatch15
 Depends: mobilesubstrate
 Version: 3.0
-Description: Hippity Hoppity make CommCenter your property
-Maintainer: Amy While <support@anamy.gay>
+Description: Commcenter Bundle Patch
+Maintainer: Cronocide <github@cronocide.com>
 Author: Amy While <support@anamy.gay>
 Section: Tweaks
