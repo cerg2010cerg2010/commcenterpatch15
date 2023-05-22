@@ -4,11 +4,12 @@
 // Tried on iOS 15 by Cronocideios
 
 int returnOne() {
+    NSLog(@"CCPatch15 Cancelled signature verification call");
     return 1;
 }
 
 %ctor {
-// 
+    NSLog(@"CCPatch15 Starting Hooks");
     NSArray *symbols = @[
         @"_SecKeyRawVerify",
         @"__Z28VerifyCarrierBundleSignatureRKNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEE15CBSignatureType16SignatureKeyType",

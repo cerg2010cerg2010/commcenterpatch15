@@ -1,6 +1,6 @@
 Package: com.cronocide.ccp15
 Architecture: iphoneos-arm
-Pre-Depends: firmware (>= 8.0)
+Pre-Depends: firmware (>= 15.0)
 Name: CommCenterPatch15
 Depends: mobilesubstrate
 Version: 3.0
