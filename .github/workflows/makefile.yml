@@ -1,4 +1,4 @@
-name: Makefile CI
+name: CI
 
 on: [push]
 
@@ -7,7 +7,7 @@ jobs:
     runs-on: ${{ matrix.os }}
     strategy:
       matrix:
-        os: [macos-latest]
+        os: [macos-latest, ubuntu-latest]
 
     steps:
       - uses: actions/checkout@v3
@@ -39,9 +39,3 @@ jobs:
         with:
           name: "Package built by ${{ matrix.os }}"
           path: ${{ github.workspace }}/packages/*.deb
-
-      - name: Upload a Build Artifact
-        uses: actions/upload-artifact@v4.3.1
-        with:
-        name: Build
-        path: dist
